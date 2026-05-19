@@ -116,32 +116,21 @@ The extension activates automatically for all React-compatible file types:
 
 1. Open **VS Code**
 2. Go to **Extensions** (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Search for **`ClassName Template Literal`**
+3. Search for **`React Classname Formatter`**
 4. Click **Install**
 
 Or install from the command line:
 
 ```sh
-code --install-extension classname-template-literal
+code --install-extension react-classname-formatter
 ```
-
----
-
-## 🛠️ Commands
-
-| Command | Trigger |
-|---|---|
-| Format className in current file | Right-click → **Format className to `` {`} ``** |
-| Format className in current file | Status bar button **`` className→{`} ``** |
-
----
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 1. Fork the repository
-2. Create your branch: `git checkout -b feat/my-feature`
+2. Create your branch: `git checkout -b feat/your-feature`
 3. Commit your changes: `git commit -m 'feat: add my feature'`
 4. Push to the branch: `git push origin feat/my-feature`
 5. Open a Pull Request

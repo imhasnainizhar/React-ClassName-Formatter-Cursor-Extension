@@ -2,7 +2,7 @@
 
 <br />
 
-# ClassName Template Literal
+# React Classname Formatter
 
 ### The VS Code extension that keeps your Tailwind CSS workflow *clean, fast, and beautifully formatted.*
 

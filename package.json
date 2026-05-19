@@ -1,0 +1,32 @@
+{
+  "name": "React Classname Formatter",
+  "displayName": "ClassName Template Literal",
+  "version": "1.0.0",
+  "description": "Format and organize your React className props in one click. This extension makes writing Tailwind and dynamic template literal classes cleaner, faster, and easier than ever — especially inside complex React components.","main": "./extension.js",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "classNameTemplateLiteral.formatFile",
+        "title": "Format className to {``}"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceLangId =~ /^javascriptreact|typescriptreact|javascript|typescript$/",
+          "command": "classNameTemplateLiteral.formatFile",
+          "group": "1_modification"
+        }
+      ]
+    }
+  }
+}
